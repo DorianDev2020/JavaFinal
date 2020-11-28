@@ -48,7 +48,7 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.auth0</groupId>
+			<groupId>com.example.auth</groupId>
 			<artifactId>java-jwt</artifactId>
 			<version>3.8.0</version>
 	</dependency>
