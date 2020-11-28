@@ -14,11 +14,7 @@ public class Post {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	  private int ID;
 	
-	@Column(nullable = false, unique = true)
 	
-	private String authorID;
-	private String message;
-	private LocalDateTime timeStamp;
 	public int getID() {
 		return ID;
 	}
@@ -43,4 +39,10 @@ public class Post {
 	public void setTimeStamp(LocalDateTime timeStamp) {
 		this.timeStamp = timeStamp;
 	}
+	
+@Column(nullable = false, unique = true)
+	
+	private String authorID;
+	private String message;
+	private LocalDateTime timeStamp;
 }
